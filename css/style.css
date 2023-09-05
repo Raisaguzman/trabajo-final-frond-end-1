@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 76%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+header img {
+  height: 25px;
+}
+
+.menuHeader {
+  display: none;
+  width: 50%;
+}
+
+.menuHeader ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menuHeader ul li {
+  display: flex;
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.menuHeader ul li a {
+  color: #242e52;
+  text-decoration: none;
+}
+
+.menuHeader ul li a:hover {
+  color: rgba(36, 46, 82, 0.6);
+}
+
+header .contact {
+  display: none;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.contact, button{
+  display: flex;
+  color: white;
+  background-color: #8b48bf;
+  height: 44px;
+  width: 134px;
+  border-radius: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13.18px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventos {
+  width: 85%;
+}
+
+.boton-articulo {
+  text-decoration: none;
+}
+
+.eventos div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.eventos img {
+  width: 100%;
+}
+
+.eventos h2 {
+  font-size: 50px;
+  color: #232c50;
+  text-align: end;
+  font-weight: 700;
+}
+
+.eventos p {
+  color: #000000;
+  font-size: 16.56px;
+  text-align: end;
+}
+
+.Pros {
+  background-color: #3cddf3;
+  color: white;
+  padding: 40px 20px 40px 20px;
+  margin-top: 40px;
+}
+
+.Pros h3 {
+  font-size: 36px;
+}
+
+.Pros p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.articulos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 65px;
+}
+
+article {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+article div {
+  display: flex;
+  flex-direction: row;
+  background: rgba(139, 72, 191, 0.3);
+  border-radius: 30px 0 0px 30px;
+}
+
+.boton-articulo {
+  display: flex;
+  color: white;
+  background-color: #8b48bf;
+  border-radius: 30px;
+  width: 5%;
+  padding: 10px 25px 10px 25px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13.18px;
+  font-weight: bold;
+  margin-right: 0px;
+}
+
+article div h4 {
+  width: 85%;
+  font-weight: bold;
+  color: #323851;
+  padding-left: 10px;
+  margin-left: 5px;
+  z-index: 2;
+}
+
+article p {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  color: #b3b2b7;
+  font-weight: 500;
+  font-size: 16.3px;
+  line-height: 25.52px;
+  width: 100%;
+}
+
+.losmejores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.losmejores article {
+  display: none;
+  align-items: center;
+  background-color: #fafafa;
+  position: relative;
+  padding-top: 20px;
+}
+
+.losmejores article:nth-child(3) {
+  display: flex;
+}
+
+.losmejores article img {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.losmejores h3 {
+  color: #242e53;
+  font-size: 39.21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.losmejores h4 {
+  color: #3f4868;
+  font-size: 16.07px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.losmejores p {
+  color: #b9b9c1;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25.06px;
+}
+
+.losmejores .more {
+  background-color: #8b48bf;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  width: 134px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 45px;
+}
+
+.teams {
+  background-color: #3cddf3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+}
+
+.teams h3 {
+  width: 60%;
+  color: white;
+  font-size: 40px;
+  line-height: 47.84px;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.Goforit {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: #232c50;
+  color: white;
+  font-size: 13.18px;
+  border-radius: 50px;
+  width: 134px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*Inicio seccion footer*/
+
+footer {
+  box-sizing: border-box;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 530px;
+  position: relative;
+  right: 0px;
+  top: 0px;
+  padding: 0px;
+  margin:  0px;
+}
+
+/*ordenare el css según el orden en el que deben aparecer*/
+
+form {
+  order: 1; 
+  /* position: absolute;
+  top: 30px;
+  left: 50px; */
+  margin-top: 30px;
+  width: 380px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 70%;
+  height: 44px;
+  border-radius: 50px;
+}
+
+button {
+  width: 70px;
+  display: inline;
+}
+
+.menu-footer {
+  display: flex;
+  width: 380px;
+  height:170px;
+  margin-top: 50px;
+  order: 2;
+  justify-content: space-between;
+}
+
+
+.menu-footer li a {
+  color:white;
+  text-decoration: none;
+}
+
+.menu-footer li {
+  display: inline-block;
+  width: 100px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+span.logos {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div img{ /*div rrss*/
+  margin-top: 0px;
+}
+
+footer div { /* logos rrss */
+  order: 4;
+  width: 344px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer img[src="img/logo.svg"] { /* Logo empresa*/
+  order: 5;
+  margin-top: 30px;
+}
+
+
+footer p { /*derechos reservados*/
+  /* display: block; */
+  order: 6;
+  /* position: relative;
+  top: 180px; */
+  margin-top: 60px 0px 20px 0px;
+  color: #8C8C94;
+  font-size: 12.5px;
+}
+
+@media (min-width: 481px) {
+  .menuHeader {
+    display: flex;
+  }
+
+  header .contact {
+    display: flex;
+  }
+
+  .hambuerguesa {
+    display: none;
+  }
+  .eventos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .eventos img {
+    width: 40%;
+  }
+  .eventos div {
+    width: 40%;
+  }
+  .Pros {
+    background-color: #8b48bf;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Pros h3 {
+    display: flex;
+    width: 40%;
+    align-items: center;
+  }
+  .Pros P {
+    display: flex;
+    width: 40%;
+    line-height: 24.18px;
+    align-items: center;
+  }
+  .articulos {
+    flex-direction: row;
+    background-color: #fafafa;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px, 0px, 40px, 0px;
+  }
+
+  .articulos div {
+    background-color: #fafafa;
+  }
+
+  .articulos article {
+    width: 40%;
+  }
+
+  .articulos p {
+    padding-left: 10px;
+    margin-top: 0;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+  }
+
+  .losmejores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .losmejores h3 {
+    width: 80%;
+  }
+  .losmejores div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .losmejores article {
+    display: flex;
+    margin-top: 20px;
+    width: 40%;
+    justify-content: center;
+  }
+
+  .more:hover{
+    background-color: rgba(139, 72, 191, 0.7);
+    
+  }
+
+
+  .teams{
+    background-color: #8b48bf;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .teams h3{
+    width: 30%;
+    text-align: left;
+  }
+.teams a{
+  background-color: white;
+  color: #8B48BF;
+  font-weight: bold
+  
+}
+
+footer {
+  height: 250px;
+  flex-direction: row;
+}
+
+span.logos, footer img, .menu-footer{
+  margin-top: 0px;
+}
+
+span.logos {
+  margin-right: 10px;
+  order: 0;
+  width: 32%;
+} 
+
+footer img[src="img/logo.svg"] { /* Logo empresa*/
+  order: 1;
+  margin-top: 30px;
+}
+
+.menu-footer {
+  order:0;
+  width: 40%;
+  
+}
+.menu-footer ul{
+  width: 50%;
+}
+
+form {
+  order: 1; 
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  margin-top: 0px;
+  width: 380px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p { /*derechos reservados*/
+  display: block;
+  order: 6;
+  position: relative;
+  top: 80px;
+  left: 80px;
+  margin-top: 0xp 0px 0px 0px;
+  
+
+}
+  
+}
