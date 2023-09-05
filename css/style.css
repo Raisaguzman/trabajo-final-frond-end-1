@@ -482,7 +482,7 @@ footer {
   flex-direction: row;
 }
 
-span.logos, footer img, .menu-footer{
+span.logos, footer img, .menu-footer {
   margin-top: 0px;
 }
 
@@ -498,16 +498,20 @@ footer img[src="img/logo.svg"] { /* Logo empresa*/
 }
 
 .menu-footer {
-  order:0;
+  /* order:0; */
   width: 40%;
   
 }
 .menu-footer ul{
-  width: 50%;
+  width: 40%;
+}
+
+.menu-footer li {
+  width: 120px;
 }
 
 form {
-  order: 1; 
+  /* order: 1;  */
   position: absolute;
   top: 30px;
   right: 50px;
@@ -521,7 +525,7 @@ form {
 
 footer p { /*derechos reservados*/
   display: block;
-  order: 6;
+  /* order: 6; */
   position: relative;
   top: 80px;
   left: 80px;
