@@ -52,7 +52,8 @@ header .contact {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
 }
 
-.contact, button{
+.contact,
+button {
   display: flex;
   color: white;
   background-color: #8b48bf;
@@ -152,6 +153,8 @@ article div {
   font-size: 13.18px;
   font-weight: bold;
   margin-right: 0px;
+  height: 43px;
+  
 }
 
 article div h4 {
@@ -161,9 +164,10 @@ article div h4 {
   padding-left: 10px;
   margin-left: 5px;
   z-index: 2;
+  font-size: 16px;
 }
 
-article p {
+.articulos p {
   margin-top: 10px;
   margin-right: 10px;
   padding: 10px;
@@ -280,13 +284,13 @@ footer {
   right: 0px;
   top: 0px;
   padding: 0px;
-  margin:  0px;
+  margin: 0px;
 }
 
 /*ordenare el css según el orden en el que deben aparecer*/
 
 form {
-  order: 1; 
+  order: 1;
   /* position: absolute;
   top: 30px;
   left: 50px; */
@@ -312,15 +316,14 @@ button {
 .menu-footer {
   display: flex;
   width: 380px;
-  height:170px;
+  height: 170px;
   margin-top: 50px;
   order: 2;
   justify-content: space-between;
 }
 
-
 .menu-footer li a {
-  color:white;
+  color: white;
   text-decoration: none;
 }
 
@@ -339,7 +342,13 @@ span.logos {
   align-items: center;
 }
 
-.redes { 
+footer div img {
+  /*div rrss*/
+  margin-top: 0px;
+}
+
+footer div {
+  /* logos rrss */
   order: 4;
   width: 344px;
   margin-top: 50px;
@@ -347,19 +356,20 @@ span.logos {
   justify-content: space-around;
 }
 
-footer img[src="img/logo.svg"] { /* Logo empresa*/
+footer img[src="img/logo.svg"] {
+  /* Logo empresa*/
   order: 5;
   margin-top: 30px;
 }
 
-
-footer p { /*derechos reservados*/
+footer p {
+  /*derechos reservados*/
   /* display: block; */
   order: 6;
   /* position: relative;
   top: 180px; */
   margin-top: 60px 0px 20px 0px;
-  color: #8C8C94;
+  color: #8c8c94;
   font-size: 12.5px;
 }
 
@@ -408,7 +418,8 @@ footer p { /*derechos reservados*/
     background-color: #fafafa;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 40px, 0px, 40px, 0px;
+    padding: 40px 0px 40px 0px;
+     margin-top: 0;
   }
 
   .articulos div {
@@ -424,7 +435,8 @@ footer p { /*derechos reservados*/
     margin-top: 0;
     margin-left: 80px;
     margin-right: 80px;
-    text-align: justify;
+    width: 80%;
+    font-weight: bold;
   }
 
   .losmejores {
@@ -449,94 +461,78 @@ footer p { /*derechos reservados*/
     justify-content: center;
   }
 
-  .more:hover{
+  .more:hover {
     background-color: rgba(139, 72, 191, 0.7);
-    
   }
 
-
-  .teams{
+  .teams {
     background-color: #8b48bf;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
   }
 
-  .teams h3{
+  .teams h3 {
     width: 30%;
     text-align: left;
   }
-.teams a{
-  background-color: white;
-  color: #8B48BF;
-  font-weight: bold
-  
-}
+  .teams a {
+    background-color: white;
+    color: #8b48bf;
+    font-weight: bold;
+  }
 
-footer {
-  height: 250px;
-  flex-direction: row;
-}
+  footer {
+    height: 250px;
+    flex-direction: row;
+  }
 
-span.logos, footer img, .menu-footer {
-  margin-top: 0px;
-}
+  span.logos,
+  footer img,
+  .menu-footer {
+    margin-top: 0px;
+  }
 
-span.logos {
-  order: 0;
-  width: 30%;
-  height: 65%;
-} 
+  span.logos {
+    margin-right: 10px;
+    order: 0;
+    width: 32%;
+  }
 
-.redes {
-  width: 45%;
-}
+  footer img[src="img/logo.svg"] {
+    /* Logo empresa*/
+    order: 1;
+    margin-top: 30px;
+  }
 
-footer img[src="img/logo.svg"] { /* Logo empresa*/
-  order: 1;
-  /* margin-top: 30px; */
-  display: block;
-}
+  .menu-footer {
+    order: 0;
+    width: 40%;
+  }
+  .menu-footer ul {
+    width: 50%;
+  }
 
-.menu-footer {
-  /* order:0; */
-  width: 40%;
-  
-}
-.menu-footer ul{
-  width: 40%;
-}
+  form {
+    order: 1;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    margin-top: 0px;
+    width: 380px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.menu-footer li {
-  width: 120px;
-}
-
-form {
-  /* order: 1;  */
-  position: absolute;
-  top: 55px;
-  right: 130px;
-  margin-top: 0px;
-  width: 280px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-input {
-  margin-right: 20px;
-}
-
-footer p { /*derechos reservados*/
-  display: block;
-  /* order: 6; */
-  position: relative;
-  top: 80px;
-  left: 80px;
-  margin: 0xp 0px 0px 0px;
-  
-
-}
-  
+  footer p {
+    /*derechos reservados*/
+    display: block;
+    order: 6;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    margin-top: 0xp 0px 0px 0px;
+  }
 }
