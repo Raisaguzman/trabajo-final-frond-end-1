@@ -339,11 +339,7 @@ span.logos {
   align-items: center;
 }
 
-footer div img{ /*div rrss*/
-  margin-top: 0px;
-}
-
-footer div { /* logos rrss */
+.redes { 
   order: 4;
   width: 344px;
   margin-top: 50px;
@@ -487,14 +483,19 @@ span.logos, footer img, .menu-footer {
 }
 
 span.logos {
-  margin-right: 10px;
   order: 0;
-  width: 32%;
+  width: 30%;
+  height: 65%;
 } 
+
+.redes {
+  width: 45%;
+}
 
 footer img[src="img/logo.svg"] { /* Logo empresa*/
   order: 1;
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  display: block;
 }
 
 .menu-footer {
@@ -513,14 +514,18 @@ footer img[src="img/logo.svg"] { /* Logo empresa*/
 form {
   /* order: 1;  */
   position: absolute;
-  top: 30px;
-  right: 50px;
+  top: 55px;
+  right: 130px;
   margin-top: 0px;
-  width: 380px;
+  width: 280px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+input {
+  margin-right: 20px;
 }
 
 footer p { /*derechos reservados*/
@@ -529,7 +534,7 @@ footer p { /*derechos reservados*/
   position: relative;
   top: 80px;
   left: 80px;
-  margin-top: 0xp 0px 0px 0px;
+  margin: 0xp 0px 0px 0px;
   
 
 }
