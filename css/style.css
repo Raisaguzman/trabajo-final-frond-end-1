@@ -52,8 +52,7 @@ header .contact {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
 }
 
-.contact,
-button {
+.contact, button {
   display: flex;
   color: white;
   background-color: #8b48bf;
@@ -95,14 +94,17 @@ main {
 .eventos h2 {
   font-size: 50px;
   color: #232c50;
-  text-align: end;
+  text-align:right;
   font-weight: 700;
 }
 
 .eventos p {
   color: #000000;
   font-size: 16.56px;
-  text-align: end;
+  text-align: right;
+  line-height: 26.01px;
+  font-weight: 500;
+  
 }
 
 .Pros {
